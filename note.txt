@@ -1,0 +1,3 @@
+git config --global user.email "410411333@gms.tku.edu.tw"
+
+git config --global user.name "liminshao"
