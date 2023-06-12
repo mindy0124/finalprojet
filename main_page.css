@@ -1,3 +1,4 @@
+/* mainpage */
 .container{
     display: flex;
     flex-wrap: nowrap;
@@ -11,8 +12,6 @@
 .child{
     height: 50px;
     width: 80px;
-    /* border: 3px solid white;
-    background-color: white; */
     text-decoration: none;
     border-radius: 45%;
     line-height: 50px;
@@ -29,7 +28,6 @@
 }
 .page-title{
     width: 100%;
-    margin-top: 5px;
 }
 li{
     list-style: none;
@@ -52,29 +50,120 @@ li{
     height: 500px;
     margin: auto;
     overflow: hidden;
+    background-color: #DAF0F8;
 }
 ul{
-    width: 400%;
+    width: 500%;
     display: flex;
-    animation: move 6s infinite;
+    animation: move 10s infinite;
 }
 li img{
     width: 100%;
     height: 500px;
 }
-/* .scroll{
-    overflow-x: auto;
-    overflow-y: hidden;
-    height:600px;
-    white-space: nowrap;
-} */
-/* ::-webkit-scrollbar {
-    width: 1px;
-    height: 1px;
-  } */
 
 .footer{
     height: 50px;
     width: 100%;
     background-color: lightblue;
+}
+
+/* sidepage1 */
+
+.container1{
+    width: 100%;
+    height: 400px;
+    background-color: #FFF0E0;
+}
+
+/* sidepage2 */
+.container2{
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #DAF0F8;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.character img{
+    transition-duration:1s;
+    transition-timing-function:linear;
+    transition-delay: 0.5s;
+    position: relative;
+}
+.character img:hover{
+    height: 400px;
+    opacity: 25%;
+}
+.word1{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    color: transparent;
+}
+.word2{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    color: transparent;
+}
+.word3{
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    color: transparent;
+}
+.word4{
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    color: transparent;
+}
+
+/* sidepage3 */
+.container3{
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #DEE3F9;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+}
+.result h4{
+    margin-top: 0px;
+}
+.barborder{
+    margin-top: 10px;
+    width: 500px;
+    height: 300px;
+    border: 1px black solid;
+    border-top: transparent;
+    border-right: transparent;
+}
+.bar{
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.bar p{
+    padding: 13.5px;
+}
+.bar1{
+    width: 300px;
+    background-color: #FFE19A
+}
+.bar2{
+    width: 400px;
+    background-color: #FFD777;
+}
+.bar3{
+    width: 200px;
+    background-color: #FFF0E0;
+}
+.bar4{
+    width: 250px;
+    background-color: #FFF6E0;
 }
